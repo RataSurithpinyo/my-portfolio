@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { TypewriterEffect } from "./ui/type-writer";
 const navigation = [
-  { name: "Facebook", href: "#" },
-  { name: "Linkedin", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Facebook", href: "https://www.facebook.com/rata.surithpinyo/" },
+  { name: "Linkedin", href: "https://www.linkedin.com/in/rata-surithpinyo-3b7100245" },
+  { name: "Instagram", href: "https://www.instagram.com/rtss_pr/" },
 ];
 const name = [
   {
@@ -153,10 +153,10 @@ export default function Intro() {
             
             <div className="mt-10 flex items-center justify-center gap-x-6">
             <div className="bg-slate relative rounded-full px-3 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900 hover:bg-white hover:cursor-pointer">
-                Visit WOH website
+                <a href="https://warehouseofheart.coachbychamp.com/">Visit WOH website</a>
                 </div>
               <a
-                href="#"
+                href="https://www.zipeventapp.com/e/Warehouse-of-Heart"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 What is WOH <span aria-hidden="true">→</span>
