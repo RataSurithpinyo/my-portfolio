@@ -3,12 +3,20 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { TypewriterEffect } from "./ui/type-writer";
 const navigation = [
   { name: "Facebook", href: "#" },
   { name: "Linkedin", href: "#" },
-  { name: "Github", href: "#" },
+  { name: "Contact", href: "#" },
 ];
-const name = "Rata Surithpinyo".split(" ");
+const name = [
+  {
+    text: "Rata",
+  },
+  {
+    text: "Surithpinyo",
+  }
+];
 const bio = "Nice to meet you! Welcome to my portfolio. 💼 I'm a current senior studying Computer Engineering at Chulalongkorn University."
 export default function Intro() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -20,14 +28,8 @@ export default function Intro() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a className="-m-1.5 p-1.5">
               <span className="sr-only"></span>
-              {/* <Image></Image>
-              <img
-                className="h-8 w-auto"
-                src="./image/Pancakes.svg"
-                alt=""
-              /> */}
             <Image
       src="/image/pancake.svg"
       width={40}
@@ -129,9 +131,9 @@ export default function Intro() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-20">
+        <div className="mx-auto max-w-2xl pt-20">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="bg-white relative rounded-full px-3 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            <div className="bg-white relative rounded-full px-3 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900">
               📝 See my github page{" "}
               <a
                 href="https://github.com/RataSurithpinyo"
@@ -143,37 +145,21 @@ export default function Intro() {
             </div>
           </div>
           <div className="text-center">
-            {name.map((el, i) => (
-              <motion.span
-              className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{
-                  duration: 1,
-                  delay: i / 15,
-                }}
-                key={i}
-              >
-                {el}{" "}
-              </motion.span>
-            ))}
+            <TypewriterEffect words={name} />
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Nice to meet you! Welcome to my portfolio. 💼 I'm a current senior
-              studying Computer Engineering at Chulalongkorn University.
+              Nice to meet you! Welcome to my portfolio. 💼 I'm a current senior 
+              at Computer Engineering at Chulalongkorn University.
             </p>
             
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Get started
-              </a>
+            <div className="bg-slate relative rounded-full px-3 py-1 text-sm leading-6 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900 hover:bg-white hover:cursor-pointer">
+                Visit WOH website
+                </div>
               <a
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
-                Contact me <span aria-hidden="true">→</span>
+                What is WOH <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
