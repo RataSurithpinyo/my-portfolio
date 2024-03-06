@@ -1,9 +1,9 @@
 import React from 'react'
 const features = [
     { name: 'Software Development', description: 'Experienced in SDLC and web development. My favorite Frontend framework is Next.js : )' },
-    { name: 'UX/UI', description: 'In 2022, I did UX/UI Internship at Wang Data Market. I also love putting designs to the Frontend development' },
-    { name: 'Software Architecture', description: 'Explored microservices and CI/CD' },
-    { name: 'Cloud Computing', description: 'Learned cloud services, specifically AWS' },
+    { name: 'UX/UI', description: 'In 2022, I did a UX/UI Internship at Wang Data Market. I also love putting designs to the Frontend development' },
+    { name: 'Software Architecture', description: 'Experienced in a microservices project' },
+    { name: 'Cloud Computing', description: 'Currently studying cloud services, specifically Amazon Web Services (AWS)' },
   ]
 export default function Middle() {
   return (
@@ -12,8 +12,7 @@ export default function Middle() {
         <div>
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My passion</h2>
           <p className="mt-4 text-gray-500">
-          I am passionate about web development and software engineering. Looking to contribute my software skills to a challenging role. With excitement, I am eager to learn more about both Frontend and Backend technologies. I am ready to take a deep dive into 
-          challenges in software development.
+          I am passionate about web development and software engineering. Looking to contribute my software skills to a challenging role. With excitement, I am eager to learn more about both Frontend and Backend technologies.
           </p>
 
           <dl className="mt-16 mb-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
