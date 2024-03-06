@@ -12,7 +12,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+        "woh": "url('/image/bg.jpeg')",
+        },
       animation: {
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",

@@ -1,14 +1,13 @@
 import React from 'react'
 const features = [
-    { name: 'Software Development', description: 'Designed by Good Goods, Inc.' },
-    { name: 'UX/UI', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
-    { name: 'Software Architecture', description: '6.25" x 3.55" x 1.15"' },
-    { name: 'Cloud Computing', description: 'Hand sanded and finished with natural oil' },
+    { name: 'Software Development', description: 'Experienced in SDLC and web development. My favorite Frontend framework is Next.js : )' },
+    { name: 'UX/UI', description: 'In 2022, I did UX/UI Internship. I also love putting designs to the Frontend development' },
+    { name: 'Software Architecture', description: 'Explored microservices and CI/CD' },
+    { name: 'Cloud Computing', description: 'Learned cloud services, specifically AWS' },
   ]
 export default function Middle() {
   return (
     <div className="bg-white">
-        {/* gap-x-8 gap-y-16 px-4 py-24 */}
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center ">
         <div>
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My passion</h2>
