@@ -2,13 +2,10 @@ import { cn } from "@/utils/cn";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import {
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
+  IconSignature
 } from "@tabler/icons-react";
 
-export function BentoGridSecondDemo() {
+export function BentoGridSecond() {
   return (
     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => (
@@ -30,32 +27,32 @@ const Skeleton = ({ bgName }: { bgName: string }) => (
 
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "Vehicle Detection & Classification website (2023 - Present)",
+    description: "A capstone project, I'm working as a Frontend developer.",
     header: <Skeleton bgName="bg-capstone bg-center"/>,
     className: "md:col-span-2",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
+    title: "Warehouse of Heart website (2023 - Present)",
+    description: "This project is hosted by Coach by ChAMP. This website will guide you through memories, aiming to make you love and appreciate yourself :)",
     header: <Skeleton bgName="bg-woh ng-top-center"/>,
     className: "md:col-span-1",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "AIS Digital Internship (2023)",
+    description: "I was a Full Stack Developer intern. This experience greatly help me understanding the role of developer in the real-world industry.",
     header: <Skeleton bgName="bg-intern bg-center"/>,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Power of Communication",
+    title: "Global Awareness in Technology Implementation (GATI) ",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "I was a member of a collaborative course between Chula Engineering and Tokyo Institute of Technology. We got to learn design thinking under the theme of gamification and technology",
     header: <Skeleton bgName="bg-gati bg-center"/>,
     className: "md:col-span-2",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
 ];

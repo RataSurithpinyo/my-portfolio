@@ -1,6 +1,6 @@
 import { HoverEffect } from "./ui/card-hover";
 
-export function CardHoverEffectDemo() {
+export function CardHoverEffect() {
   return (
     <div className="mt-8 max-w-5xl mx-auto px-8">
       <p className='text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>Skills & Personal Interests</p>

@@ -1,15 +1,14 @@
 "use client";
 import Intro from "@/components/Intro";
 import Middle from "@/components/Middle";
-import { ThreeDCardDemo } from "@/components/ThreeD";
-import { BackgroundGradientAnimation } from "@/components/ui/background-gradient";
+import { ThreeDCard } from "@/components/ThreeD";
 import Gradient from "@/components/Gradient";
 
 export default function Example() {
   return (
     <>
       <Intro />
-      <ThreeDCardDemo/>
+      <ThreeDCard/>
       <Middle />
       <Gradient />
     </>

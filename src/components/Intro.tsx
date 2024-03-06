@@ -143,7 +143,7 @@ export default function Intro() {
             <TypewriterEffect words={name} />
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Nice to meet you! Welcome to my portfolio. 💼 I'm a current senior 
-              at Computer Engineering at Chulalongkorn University.
+              at Computer Engineering, Chulalongkorn University.
             </p>
             
             <div className="mt-10 flex items-center justify-center gap-x-6">
