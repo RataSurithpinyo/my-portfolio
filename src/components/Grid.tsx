@@ -36,7 +36,7 @@ const items = [
   {
     title: "Warehouse of Heart website (2023 - Present)",
     description: "This project is initiated by Coach by ChAMP. This website will guide you through memories, aiming to make you love and appreciate yourself :)",
-    header: <Skeleton bgName="bg-woh ng-top-center"/>,
+    header: <Skeleton bgName="bg-woh bg-center"/>,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },

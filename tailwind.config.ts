@@ -12,7 +12,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "woh": "url('/image/woh.png')",
+        "woh": "url('/image/woh1.png')",
         "capstone": "url('/image/capstone.png')",
         "intern": "url('/image/intern.png')",
         "gati": "url('/image/gati.png')",
