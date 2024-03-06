@@ -59,11 +59,6 @@ export default function Intro() {
               </a>
             ))}
           </div>
-          {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div> */}
         </nav>
         <Dialog
           as="div"
@@ -157,7 +152,7 @@ export default function Intro() {
                 </div>
               <a
                 href="https://www.zipeventapp.com/e/Warehouse-of-Heart"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-gray-900 hover:underline"
               >
                 What is WOH <span aria-hidden="true">→</span>
               </a>
