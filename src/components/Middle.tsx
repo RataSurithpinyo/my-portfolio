@@ -1,7 +1,7 @@
 import React from 'react'
 const features = [
     { name: 'Software Development', description: 'Experienced in SDLC and web development. My favorite Frontend framework is Next.js : )' },
-    { name: 'UX/UI', description: 'In 2022, I did UX/UI Internship. I also love putting designs to the Frontend development' },
+    { name: 'UX/UI', description: 'In 2022, I did UX/UI Internship at Wang Data Market. I also love putting designs to the Frontend development' },
     { name: 'Software Architecture', description: 'Explored microservices and CI/CD' },
     { name: 'Cloud Computing', description: 'Learned cloud services, specifically AWS' },
   ]

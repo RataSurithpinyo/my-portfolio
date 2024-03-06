@@ -12,7 +12,10 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "woh": "url('/image/bg.jpeg')",
+        "woh": "url('/image/woh.png')",
+        "capstone": "url('/image/capstone.png')",
+        "intern": "url('/image/intern.png')",
+        "gati": "url('/image/gati.png')",
         },
       animation: {
         first: "moveVertical 30s ease infinite",

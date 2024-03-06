@@ -25,28 +25,28 @@ export function BentoGridSecondDemo() {
   );
 }
 const Skeleton = ({ bgName }: { bgName: string }) => (
-  <div className={`flex flex-1 w-full h-full min-h-[6rem] rounded-xl border border-transparent dark:border-white/[0.2] bg-${bgName} bg-cover mask-image:radial-gradient(ellipse_at_center,white,transparent)`}></div>
-  );
+  <div className={`flex flex-1 w-full h-full min-h-[6rem] rounded-xl border border-transparent dark:border-white/[0.2] ${bgName} bg-cover bg-no-repeat`}></div>
+);
 
 const items = [
   {
     title: "The Dawn of Innovation",
     description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton bgName="woh"/>,
+    header: <Skeleton bgName="bg-capstone bg-center"/>,
     className: "md:col-span-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Digital Revolution",
     description: "Dive into the transformative power of technology.",
-    header: <Skeleton bgName="woh"/>,
+    header: <Skeleton bgName="bg-woh ng-top-center"/>,
     className: "md:col-span-1",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Art of Design",
     description: "Discover the beauty of thoughtful and functional design.",
-    header: <Skeleton bgName="woh"/>,
+    header: <Skeleton bgName="bg-intern bg-center"/>,
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
@@ -54,7 +54,7 @@ const items = [
     title: "The Power of Communication",
     description:
       "Understand the impact of effective communication in our lives.",
-    header: <Skeleton bgName="woh"/>,
+    header: <Skeleton bgName="bg-gati bg-center"/>,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
